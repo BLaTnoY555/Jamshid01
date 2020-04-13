@@ -1,5 +1,5 @@
 <?php
-define('API_KEY','token');
+define('API_KEY','1131023833:AAH6BaPafXudjTBv2XR-gVC5tLni1s1Gc_s');
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
@@ -195,3 +195,4 @@ admin:@html_iq
 channel@codearab ",
  ]);
  }
+?>
