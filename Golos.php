@@ -1,5 +1,5 @@
 <?php 
-$tikapp = '1120426526:AAFS0i5ILX3CE7349TAHuGii8Ua3xof6Q8Q';
+$tikapp = '1131023833:AAH6BaPafXudjTBv2XR-gVC5tLni1s1Gc_s';
 define('API_KEY',$tikapp);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
